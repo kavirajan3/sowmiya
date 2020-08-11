@@ -1,42 +1,114 @@
- body{
-    text-align: center;
-    background: #fa26a0;
-  font-family: sans-serif;
-  font-weight: 100;
-  
+
+body {
+  background: #f6f6f6;
+  background-color: black;
+  font-family: 'Staatliches', cursive;
 }
 
-/* h1{
-  color: #396;
-  font-weight: 100;
-  font-size: 40px;
-  margin: 40px 0px 20px;
+.countdownContainer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  text-align: center;
+  color: white;
+  padding: 10px;
+  width: 100%;
+  font-size: 70px;
+
+  background: linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
+  background-size: 1800% 1800%;
+
+  -webkit-animation: rainbow 18s ease infinite;
+  -z-animation: rainbow 18s ease infinite;
+  -o-animation: rainbow 18s ease infinite;
+    animation: rainbow 18s ease infinite;}
+
+  @-webkit-keyframes rainbow {
+      0%{background-position:0% 82%}
+      50%{background-position:100% 19%}
+      100%{background-position:0% 82%}
+  }
+  @-moz-keyframes rainbow {
+      0%{background-position:0% 82%}
+      50%{background-position:100% 19%}
+      100%{background-position:0% 82%}
+  }
+  @-o-keyframes rainbow {
+      0%{background-position:0% 82%}
+      50%{background-position:100% 19%}
+      100%{background-position:0% 82%}
+  }
+  @keyframes rainbow {
+      0%{background-position:0% 82%}
+      50%{background-position:100% 19%}
+      100%{background-position:0% 82%}
+  }
 }
 
-#clockdiv{
-    font-family: sans-serif;
-    color: #fff;
-    display: inline-block;
-    font-weight: 100;
-    text-align: center;
-    font-size: 30px;
+.info {
+  font-size: 80px;
 }
 
-#clockdiv > div{
-    padding: 10px;
-    border-radius: 3px;
-    background: #00BF96;
-    display: inline-block;
+#notBirthdayTime {
+  color: white;
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  text-align: center;
+  font-size: 60px;
 }
 
-#clockdiv div > span{
-    padding: 15px;
-    border-radius: 3px;
-    background: #00816A;
-    display: inline-block;
-}
+#birthdayTime {
+  display: none;
+  height: 100%;
+  width: 100%;
+  left:0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  background: linear-gradient(124deg, #dd00f3, #e81d1d, #383e56, #e3e81d, #00005c, #1ddde8, #900c3f, #e81d1d, #dd00f3,#bb596b,#f2ed6f,#be79df);
+  background-size: 1800% 1800%;
 
-.smalltext{
-    padding-top: 5px;
-    font-size: 16px;
-} */
+  -webkit-animation: rainbow 25s ease infinite;
+  -z-animation: rainbow 25s ease infinite;
+  -o-animation: rainbow 25s ease infinite;
+    animation: rainbow 25s ease infinite;}
+
+  @-webkit-keyframes rainbow {
+      0%{background-position:0% 82%}
+      50%{background-position:100% 19%}
+      100%{background-position:0% 82%}
+  }
+  @-moz-keyframes rainbow {
+      0%{background-position:0% 82%}
+      50%{background-position:100% 19%}
+      100%{background-position:0% 82%}
+  }
+  @-o-keyframes rainbow {
+      0%{background-position:0% 82%}
+      50%{background-position:100% 19%}
+      100%{background-position:0% 82%}
+  }
+  @keyframes rainbow {
+      0%{background-position:0% 82%}
+      50%{background-position:100% 19%}
+      100%{background-position:0% 82%}
+  }
+
+  #birthdayTime h3 {
+    position: absolute;
+    top: 20%;
+    right: 25%;
+    font-size: 150px;
+    color: white;
+    z-index: 1;
+  }
+
+#unicornPicture {
+  position: absolute;
+  height: 100%;
+  top: 0%;
+}
