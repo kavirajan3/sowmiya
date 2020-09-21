@@ -101,7 +101,7 @@ body {
     position: absolute;
     top: 20%;
     right: 25%;
-    font-size: 50px;
+    font-size: 20px;
     /* color: #e11d74; */
     z-index: 1;
     background:  linear-gradient(124deg, #dd00f3, #e81d1d, #383e56, #e3e81d, #00005c, #1ddde8, #900c3f, #e81d1d, #dd00f3,#bb596b,#f2ed6f,#be79df);
