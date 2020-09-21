@@ -1,4 +1,3 @@
-
 body {
   background: #f6f6f6;
   background-color: black;
@@ -102,13 +101,56 @@ body {
     position: absolute;
     top: 20%;
     right: 25%;
-    font-size: 60px;
-    color: white;
+    font-size: 100px;
+    /* color: #e11d74; */
     z-index: 1;
+    background:  linear-gradient(124deg, #dd00f3, #e81d1d, #383e56, #e3e81d, #00005c, #1ddde8, #900c3f, #e81d1d, #dd00f3,#bb596b,#f2ed6f,#be79df);
+    background-size: 1800% 1800%;
+    -webkit-animation: rainbow 18s ease infinite;
+    -z-animation: rainbow 18s ease infinite;
+    -o-animation: rainbow 18s ease infinite;
+      animation: rainbow 18s ease infinite;}
+
+    @-webkit-keyframes rainbow {
+        0%{background-position:0% 82%}
+        50%{background-position:100% 19%}
+        100%{background-position:0% 82%}
+    }
+    @-moz-keyframes rainbow {
+        0%{background-position:0% 82%}
+        50%{background-position:100% 19%}
+        100%{background-position:0% 82%}
+    }
+    @-o-keyframes rainbow {
+        0%{background-position:0% 82%}
+        50%{background-position:100% 19%}
+        100%{background-position:0% 82%}
+    }
+    @keyframes rainbow {
+        0%{background-position:0% 82%}
+        50%{background-position:100% 19%}
+        100%{background-position:0% 82%}
   }
 
-#unicornPicture {
-  position: absolute;
+
+#sowmipic1 {
+  position: relative;
+    right: 75px;
+    height: 100%;
+}
+
+
+#sowmipic2 {
+  position: relative;
+  right:55px;
+  text-align: center;
   height: 100%;
-  top: 0%;
+}
+
+
+#sowmipic3 {
+  position: absolute;
+  right: 30px;
+  height: 100%;
+  text-align: left;
 }
