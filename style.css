@@ -102,9 +102,9 @@ body {
     top: 20%;
     right: 25%;
     font-size: 50px;
-    /* color: #e11d74; */
+    color: #eb8f8f;
     z-index: 1;
-    background:  linear-gradient(124deg, #dd00f3, #e81d1d, #383e56, #e3e81d, #00005c, #1ddde8, #900c3f, #e81d1d, #dd00f3,#bb596b,#f2ed6f,#be79df);
+/*     background:  linear-gradient(124deg, #dd00f3, #e81d1d, #383e56, #e3e81d, #00005c, #1ddde8, #900c3f, #e81d1d, #dd00f3,#bb596b,#f2ed6f,#be79df);
     background-size: 1800% 1800%;
     -webkit-animation: rainbow 18s ease infinite;
     -z-animation: rainbow 18s ease infinite;
@@ -129,7 +129,7 @@ body {
     @keyframes rainbow {
         0%{background-position:0% 82%}
         50%{background-position:100% 19%}
-        100%{background-position:0% 82%}
+        100%{background-position:0% 82%} */
   }
 
 
