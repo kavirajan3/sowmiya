@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function() {
   const currentTime = new Date()
   let yearOfTheEvent = currentTime.getFullYear()
   let eventDate = new Date( yearOfTheEvent, 08, 21 )
-  const isItSeptembe22 = currentTime.getMonth() === 08 && currentTime.getDate() === 21
+  const isItSeptember22 = currentTime.getMonth() === 08 && currentTime.getDate() === 21
 
   function countdown() {
     const now = new Date()
@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', function() {
     minutes %= 60
     seconds %= 60
 
-    if ( isItSeptembe22 ) {
+    if ( isItSeptember22 ) {
       console.log('Happy birthday, sowmi!')
 
       countdownContainer.style.display = "none"
